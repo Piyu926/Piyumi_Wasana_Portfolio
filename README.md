@@ -1,33 +1,47 @@
-# 🌐 Piyumi Wasana — Personal Portfolio Website
+# 🌐 Piyumi Wasana — Personal Portfolio
 
-[![Portfolio Live](https://img.shields.io/badge/Live_Site-Visit_Portfolio-00d2ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://piyu926.github.io/Piyumi_Wasana_Portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Piyu926)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-00d2ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://piyu926.github.io/Piyumi_Wasana_Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)
 
-Welcome to the repository for my personal portfolio website! This responsive site highlights my academic background, technical skills in Software Quality Assurance (SQA), featured projects, and professional certifications.
+A clean, responsive personal portfolio website built from scratch to showcase my technical profile, projects, and QA journey.
 
 ---
 
-## 🚀 Live Portfolio
+## 🚀 Live Demo
 
-Experience the live website deployed via GitHub Pages here:  
+Experience the live site deployed via GitHub Pages:  
 👉 **[https://piyu926.github.io/Piyumi_Wasana_Portfolio/](https://piyu926.github.io/Piyumi_Wasana_Portfolio/)**
 
 ---
 
 ## 🛠️ Built With
 
-- **Structure & Logic:** HTML5, Modern CSS3, JavaScript (Vanilla JS)
-- **Styling & Layout:** CSS Flexbox, CSS Grid, Fully Responsive Layouts
-- **Icons & Assets:** FontAwesome Icons, Custom Badges
-- **Hosting & Deployment:** GitHub Pages
+- **HTML5** — Semantic markup and page structuring
+- **CSS3** — Custom styling, CSS Grid, Flexbox, and cross-device responsiveness
+- **JavaScript (ES6)** — Dynamic UI interactions and navigation logic
+- **FontAwesome** — Vector icons for social and interface elements
+- **GitHub Pages** — Hosting and production deployment
+
+---
+
+## 📂 Project Structure
+
+Piyumi_Portfolio/
+├── index.html        # Main HTML structure
+├── style.css         # Custom layout and theme styling
+├── script.js         # Interactive DOM scripting
+├── assets/           # Media and image resources
+└── README.md         # Repository documentation
 
 ---
 
 ## 📬 Contact & Connect
 
-- **GitHub Repository:** [Piyumi_Wasana_Portfolio](https://github.com/Piyu926/Piyumi_Wasana_Portfolio)
-- **GitHub Profile:** [@Piyu926](https://github.com/Piyu926)
-- **Field:** Software Quality Assurance (SQA) & Software Testing
+Feel free to reach out for inquiries, feedback, or collaboration opportunities:
+
+- **LinkedIn:** [Piyumi Wasana](https://www.linkedin.com/)
+- **Email:** [piyumiwasana926@gmail.com](mailto:piyumiwasana926@gmail.com)
+- **Portfolio:** [Leave a message via Contact Form](https://piyu926.github.io/Piyumi_Wasana_Portfolio/#contact)
 
 ---
 *Developed & Maintained by Piyumi Wasana.*
