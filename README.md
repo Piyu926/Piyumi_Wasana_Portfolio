@@ -26,13 +26,10 @@ Experience the live site deployed via GitHub Pages:
 
 ## 📂 Project Structure
 
+```text
 Piyumi_Portfolio/
 ├── index.html        # Main HTML structure
 ├── style.css         # Custom layout and theme styling
 ├── script.js         # Interactive DOM scripting
 ├── assets/           # Media and image resources
 └── README.md         # Repository documentation
-
----
-
-*Developed & Maintained by Piyumi Wasana.*
