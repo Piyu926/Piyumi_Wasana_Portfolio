@@ -35,13 +35,4 @@ Piyumi_Portfolio/
 
 ---
 
-## 📬 Contact & Connect
-
-Feel free to reach out for inquiries, feedback, or collaboration opportunities:
-
-- **LinkedIn:** [Piyumi Wasana](https://www.linkedin.com/)
-- **Email:** [piyumiwasana926@gmail.com](mailto:piyumiwasana926@gmail.com)
-- **Portfolio:** [Leave a message via Contact Form](https://piyu926.github.io/Piyumi_Wasana_Portfolio/#contact)
-
----
 *Developed & Maintained by Piyumi Wasana.*
