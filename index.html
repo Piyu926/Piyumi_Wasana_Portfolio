@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyumi Wasana | SQA Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Full Portfolio Animated Particle Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <div class="brand-avatar">PW</div>
+        <span>Piyumi Wasana</span>
+      </a>
+
+      <!-- Hamburger Icon Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section section">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="highlight-text">PIYUMI WASANA</span>
+        </h1>
+        
+        <!-- Typewriter Effect -->
+        <div class="typewriter-container">
+          <span class="typewriter-text" id="typewriter"></span>
+          <span class="typewriter-cursor">|</span>
+        </div>
+
+        <p class="hero-description">
+          QA Engineer focused on building reliable, bug-free, and high-quality web applications through modern testing practices.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            Explore Projects <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fa-regular fa-envelope"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <span class="connect-label">CONNECT</span>
+          <a href="https://www.linkedin.com/in/piyumi-wasana-2334b836b" target="_blank" rel="noopener" class="social-icon" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Piyu926" target="_blank" rel="noopener" class="social-icon" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-container">
+        <div class="image-halo">
+          <img src="assets/Profile Picture.jpeg" alt="Piyumi Wasana" class="hero-profile-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section section">
+    <p class="section-tag" style="font-size: 24px; margin-bottom: 30px;">ABOUT ME</p>
+    <div class="interactive-card about-box">
+      <p class="about-cyber-text">
+        I am Piyumi Wasana an undergraduate in Information and Communication Technology at the University of Colombo, specializing in Software Quality Assurance. As an aspiring QA Engineer, I am passionate about identifying defects, improving software quality, and delivering bug-free, reliable web and mobile applications. My core expertise covers manual test case design, Selenium automation, Postman API validation, and end-to-end defect tracking in Jira.
+      </p>
+
+      <p class="about-cyber-text" style="margin-top: 20px;">
+        Alongside my QA focus, I possess strong foundational knowledge in Computer Networking and Project Management. This gives me a comprehensive understanding of network protocols, system architectures, and structured sprint workflows, enabling me to coordinate effectively within multi-disciplinary teams and adapt quickly to broader technical environments.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="skills-section section">
+  <p class="section-tag" style="font-size: 24px; margin-bottom: 30px; text-align: center;">SKILLS</p>
+
+  <div class="skills-grid">
+    <!-- Card 1: Testing Concepts  -->
+    <div class="interactive-card skill-card">
+      <h3>QA & Testing Concepts</h3>
+      <div class="title-divider"></div>
+      <ul class="skill-bullet-list">
+        <li>Manual Testing</li>
+        <li>Test Case Design</li>
+        <li>Bug Reporting</li>
+        <li>API Testing</li>
+        <li>SDLC & STLC</li>
+      </ul>
+    </div>
+
+    <!-- Card 2: Automation & Tools -->
+    <div class="interactive-card skill-card">
+      <h3>QA Tools & Automation</h3>
+      <div class="title-divider"></div>
+      <ul class="skill-bullet-list">
+        <li>Automation Testing (Selenium)</li>
+        <li>Jira (Bug Tracking)</li>
+        <li>Postman (API Testing)</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+    <!-- Card 3: Technical Skills, Networking & PM -->
+    <div class="interactive-card skill-card">
+      <h3>Technical Skills</h3>
+      <div class="title-divider"></div>
+      <ul class="skill-bullet-list">
+        <li>HTML / CSS / JavaScript</li>
+        <li>MySQL</li>
+        <li>Java, Python, PHP, C</li>
+        <li>Computer Networking</li>
+        <li>Project Management (Agile, Scrum)</li>
+      </ul>
+    </div>
+
+    <!-- Card 4: Soft Skills -->
+    <div class="interactive-card skill-card">
+      <h3>Soft Skills</h3>
+      <div class="title-divider"></div>
+      <ul class="skill-bullet-list">
+        <li>Teamwork</li>
+        <li>Clear Communication</li>
+        <li>Attention to Detail</li>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section section">
+    <p class="section-tag" style="font-size: 24px; margin-bottom: 30px;">PROJECTS</p>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <!-- Project 1: Automation Exercise QA -->
+      <div class="interactive-card project-card">
+        <div class="project-header">
+          <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <div class="project-title-group">
+            <h3>Automation Exercise QA</h3>
+            <span class="project-category">AUTOMATION & API TESTING</span>
+          </div>
+        </div>
+        <div class="project-date"><i class="fa-regular fa-calendar"></i> Sep 2026</div>
+        <p class="project-desc">
+          Built an automation framework using Selenium WebDriver, TestNG, and Page Object Model (POM). Conducted manual and API testing using Postman, RTM, and tracked functional defects via Jira Cloud.
+        </p>
+        <div class="chips-container">
+          <span class="chip">Selenium WebDriver</span>
+          <span class="chip">Java</span>
+          <span class="chip">TestNG</span>
+          <span class="chip">Postman</span>
+          <span class="chip">Jira</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/Piyu926/Automation-Exercise-QA.git" target="_blank" rel="noopener" class="btn btn-outline-cyan">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2: SauceDemo Manual Testing -->
+      <div class="interactive-card project-card">
+        <div class="project-header">
+          <div class="card-icon"><i class="fa-regular fa-circle-check"></i></div>
+          <div class="project-title-group">
+            <h3>SauceDemo Manual Testing</h3>
+            <span class="project-category">MANUAL QA & DEFECT TRACKING</span>
+          </div>
+        </div>
+        <div class="project-date"><i class="fa-regular fa-calendar"></i> Aug 2026</div>
+        <p class="project-desc">
+          Designed and executed test cases in MS Excel covering critical workflows, user checkout, and edge cases. Logged functional defects, managed bug lifecycles, and maintained defect traceability using Jira Cloud.
+        </p>
+        <div class="chips-container">
+          <span class="chip">Jira</span>
+          <span class="chip">MS Excel</span>
+          <span class="chip">Test Case Design</span>
+          <span class="chip">Manual Testing</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/Piyu926/SauceDemo-Manual-Testing.git" target="_blank" rel="noopener" class="btn btn-outline-cyan">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Project : PlanSnap -->
+      <div class="interactive-card project-card">
+        <div class="project-header">
+          <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <div class="project-title-group">
+            <h3>PlanSnap – Routine & Task Planner</h3>
+            <span class="project-category">ANDROID MOBILE APPLICATION</span>
+          </div>
+        </div>
+        <div class="project-date"><i class="fa-regular fa-calendar"></i> Mar - May 2026</div>
+        <p class="project-desc">
+          Developed a native Android task management app using Java and XML layouts. Implemented SharedPreferences for local persistence, dynamic input validation to prevent crashes, and performed functional UI and usability testing across screen flows.
+        </p>
+        <div class="chips-container">
+          <span class="chip">Java</span>
+          <span class="chip">Android Studio</span>
+          <span class="chip">XML</span>
+          <span class="chip">Android SDK</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/Piyu926/PlanSnap.git" target="_blank" rel="noopener" class="btn btn-outline-cyan">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Project : Hostel Management System -->
+      <div class="interactive-card project-card">
+        <div class="project-header">
+          <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <div class="project-title-group">
+            <h3>Hostel Management System</h3>
+            <span class="project-category">WEB APPLICATION</span>
+          </div>
+        </div>
+        <div class="project-date"><i class="fa-regular fa-calendar"></i> Jan - Dec 2025</div>
+        <p class="project-desc">
+          Collaborated in a team to build a web application for student room allocations and payment tracking using PHP and MySQL. Handled end-to-end functional testing, user authentication flows, and validated role-based access control.
+        </p>
+        <div class="chips-container">
+          <span class="chip">PHP</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/Piyu926/Hostel-Management-System.git" target="_blank" rel="noopener" class="btn btn-outline-cyan">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+
+      
+
+      <!-- Project 4 -->
+      <div class="interactive-card project-card">
+        <div class="project-header">
+          <div class="card-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+          <div class="project-title-group">
+            <h3>Hotel Room Reservation System</h3>
+            <span class="project-category">SYSTEM DESIGN & INTERACTIVE PROTOTYPE</span>
+          </div>
+        </div>
+        <div class="project-date"><i class="fa-regular fa-calendar"></i> February – March 2025</div>
+        <p class="project-desc">
+          Hotel reservation system prototype covering activity diagrams, database structure, and use case diagrams alongside complete system specification documentation.
+        </p>>
+          <div class="chips-container">
+          <span class="chip">Prototype</span>
+          <span class="chip">Activity Diagram</span>
+          <span class="chip">Use Case Diagram</span>
+          <span class="chip">Database Structure</span>
+
+        </div>
+        <div class="project-actions">
+          <a href="https://github.com/Piyu926/Hotel_Room_Reservation_System.git" target="_blank" rel="noopener" class="btn btn-outline-cyan">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section section">
+    <p class="section-tag" style="font-size: 24px; margin-bottom: 30px;">EDUCATION</p>
+
+    <div class="timeline-container">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card interactive-card">
+          <span class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i> UNDERGRADUATE</span>
+          <h3>Bachelor of Information and Communication Technology (BICT Hons)</h3>
+          <h4 class="institute-name">Faculty of Technology, University of Colombo</h4>
+          <p>Specialising in Software Quality Assurance alongside full-stack and mobile software development.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card interactive-card">
+          <span class="timeline-badge"><i class="fa-solid fa-school"></i> SECONDARY EDUCATION</span>
+          <h3>G.C.E. Advanced Level</h3>
+          <h4 class="institute-name">Dharmapala College, Bandarawela</h4>
+          <p>Completed secondary education in the Technology Stream, qualifying for university admission</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Certifications Section -->
+<section id="certifications" class="certifications-section section">
+  <p class="section-tag" style="font-size: 24px; margin-bottom: 30px;">CERTIFICATIONS</p>
+
+  <div class="certs-compact-grid">
+    <!-- 1. SQA (CODL UoM) -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Introduction to Software Quality Assurance</h4>
+        <span class="cert-platform">CODL - University of Moratuwa</span>
+      </div>
+      <a href="assets/SQA_UoM.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- 2. Python for Beginners (UoM) -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Python for Beginners</h4>
+        <span class="cert-platform">CODL - University of Moratuwa</span>
+      </div>
+      <a href="assets/Python_cert.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- 3. API Validation with Postman -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>API Validation with Postman</h4>
+        <span class="cert-platform">Coursera</span>
+      </div>
+      <a href="assets/API_Testing.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- 4. Jira Issue Tracking -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Jira Issue Tracking and Quality Assurance</h4>
+        <span class="cert-platform">Coursera</span>
+      </div>
+      <a href="assets/jira-cert.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- 5. AWS Academy Cloud Foundations -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>AWS Academy Cloud Foundations</h4>
+        <span class="cert-platform">Amazon Web Services · Credly</span>
+      </div>
+      <a href="assets/aws-cert.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- 6. Red Hat Linux Fundamentals -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Getting Started with Linux Fundamentals (RH104)</h4>
+        <span class="cert-platform">Red Hat Academy · Credly</span>
+      </div>
+      <a href="assets/RedHat.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- Google PM 1: Foundations of Project Management -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Foundations of Project Management</h4>
+        <span class="cert-platform">Google · Coursera</span>
+      </div>
+      <a href="assets/PM_Foundation.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- Google PM 2: Project Initiation -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Project Initiation: Starting a Successful Project</h4>
+        <span class="cert-platform">Google · Coursera</span>
+      </div>
+      <a href="assets/Project_Initiation.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- Google PM 3: Project Planning -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Project Planning: Putting It All Together</h4>
+        <span class="cert-platform">Google · Coursera</span>
+      </div>
+      <a href="assets/Project_Planning.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+
+    <!-- Google PM 4: Project Execution -->
+    <div class="interactive-card cert-compact-card">
+      <div class="cert-check-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <div class="cert-info">
+        <h4>Project Execution: Running the Project</h4>
+        <span class="cert-platform">Google · Coursera</span>
+      </div>
+      <a href="assets/Project_Execution.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cert compact-btn">
+        <i class="fa-regular fa-file-pdf"></i> View Certificate
+      </a>
+    </div>
+  </div> 
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section">
+    <div class="section-tag">CONTACT</div>
+    <h2 class="section-heading">Let's Engineer Reliable & Defect Free Software</h2>
+
+    <div class="contact-grid">
+      <!-- Info Column -->
+      <div class="interactive-card contact-info-card">
+        <h3>Get in touch</h3>
+        <p class="contact-subtext">Open to QA internships and collaborative projects. Ready to contribute to your engineering quality.</p>
+
+        <div class="contact-items">
+          <!-- Clickable Email -->
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=piyumiwasana926@gmail.com" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+            <span>piyumiwasana926@gmail.com</span>
+          </a>
+
+          <!-- Non-clickable Phone Number -->
+          <div class="contact-link non-clickable">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <span>+94 71 541 5862</span>
+          </div>
+
+          <!-- Clickable LinkedIn -->
+          <a href="https://www.linkedin.com/in/piyumi-wasana-2334b836b/" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <span>linkedin.com/in/piyumi-wasana</span>
+          </a>
+
+          <!-- Clickable GitHub -->
+          <a href="https://github.com/Piyu926" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <span>github.com/piyumiwasana</span>
+          </a>
+
+          <!-- Non-clickable Location -->
+          <div class="contact-link non-clickable">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <span>Welimada, Sri Lanka</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Column -->
+      <div class="interactive-card contact-form-card">
+        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="How can I help?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <i class="fa-regular fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Piyumi Wasana. Crafted for Software Quality Assurance.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
