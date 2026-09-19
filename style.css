@@ -638,6 +638,78 @@ h1, h2, h3, .section-heading, .cyber-heading {
   color: #0b1120;
 }
 
+/* ===================================================
+   ACCENT COLORS FOR CARDS 5 TO 8
+   =================================================== */
+
+/* 5. Enterprise Multi-Branch (Indigo) */
+.project-card.card-indigo::before {
+  background: linear-gradient(90deg, transparent, #818cf8, transparent) !important;
+}
+.project-card.card-indigo .card-icon {
+  color: #818cf8 !important;
+  background: rgba(129, 140, 248, 0.12) !important;
+  border-color: rgba(129, 140, 248, 0.35) !important;
+}
+.project-card.card-indigo .project-category {
+  color: #818cf8 !important;
+}
+.project-card.card-indigo:hover {
+  border-color: rgba(129, 140, 248, 0.55) !important;
+  box-shadow: 0 12px 30px rgba(129, 140, 248, 0.15) !important;
+}
+
+/* 6. PlanSnap Android App (Sky Blue) */
+.project-card.card-blue::before {
+  background: linear-gradient(90deg, transparent, #38bdf8, transparent) !important;
+}
+.project-card.card-blue .card-icon {
+  color: #38bdf8 !important;
+  background: rgba(56, 189, 248, 0.12) !important;
+  border-color: rgba(56, 189, 248, 0.35) !important;
+}
+.project-card.card-blue .project-category {
+  color: #38bdf8 !important;
+}
+.project-card.card-blue:hover {
+  border-color: rgba(56, 189, 248, 0.55) !important;
+  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.15) !important;
+}
+
+/* 7. Hostel Management System (Teal) */
+.project-card.card-teal::before {
+  background: linear-gradient(90deg, transparent, #2dd4bf, transparent) !important;
+}
+.project-card.card-teal .card-icon {
+  color: #2dd4bf !important;
+  background: rgba(45, 212, 191, 0.12) !important;
+  border-color: rgba(45, 212, 191, 0.35) !important;
+}
+.project-card.card-teal .project-category {
+  color: #2dd4bf !important;
+}
+.project-card.card-teal:hover {
+  border-color: rgba(45, 212, 191, 0.55) !important;
+  box-shadow: 0 12px 30px rgba(45, 212, 191, 0.15) !important;
+}
+
+/* 8. Hotel Room Reservation System (Rose) */
+.project-card.card-rose::before {
+  background: linear-gradient(90deg, transparent, #fb7185, transparent) !important;
+}
+.project-card.card-rose .card-icon {
+  color: #fb7185 !important;
+  background: rgba(251, 113, 133, 0.12) !important;
+  border-color: rgba(251, 113, 133, 0.35) !important;
+}
+.project-card.card-rose .project-category {
+  color: #fb7185 !important;
+}
+.project-card.card-rose:hover {
+  border-color: rgba(251, 113, 133, 0.55) !important;
+  box-shadow: 0 12px 30px rgba(251, 113, 133, 0.15) !important;
+}
+
 /* Timeline Layout (Education) */
 .timeline-container {
   display: flex;
