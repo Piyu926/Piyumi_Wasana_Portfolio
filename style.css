@@ -950,7 +950,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
 }
 
 /* ===================================================
-   EDUCATION SECTION STYLES
+   EDUCATION SECTION STYLES - ELECTRIC CYAN THEME
    =================================================== */
 
 .education-section {
@@ -971,7 +971,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
 .edu-card {
   position: relative;
   background: rgba(13, 27, 42, 0.65);
-  border: 1px solid rgba(0, 229, 163, 0.25);
+  border: 1px solid rgba(0, 212, 255, 0.25);
   border-radius: 20px;
   padding: 40px 28px 32px;
   text-align: center;
@@ -981,7 +981,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
   overflow: hidden;
 }
 
-/* Top Accent Line */
+/* Top Accent Line (Cyan Ambient Light) */
 .edu-card::before {
   content: "";
   position: absolute;
@@ -989,12 +989,12 @@ h1, h2, h3, .section-heading, .cyber-heading {
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(0, 229, 163, 0.8), transparent);
+  background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.8), transparent);
 }
 
 .edu-card:hover {
-  border-color: rgba(0, 229, 163, 0.55);
-  box-shadow: 0 12px 35px rgba(0, 229, 163, 0.15);
+  border-color: rgba(0, 212, 255, 0.55);
+  box-shadow: 0 12px 35px rgba(0, 212, 255, 0.15);
   transform: translateY(-4px);
 }
 
@@ -1006,11 +1006,11 @@ h1, h2, h3, .section-heading, .cyber-heading {
   border-radius: 50%;
   padding: 6px;
   background: rgba(10, 25, 41, 0.9);
-  border: 2px dashed rgba(0, 229, 163, 0.4);
+  border: 2px dashed rgba(0, 212, 255, 0.45);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 20px rgba(0, 229, 163, 0.15);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
 }
 
 .edu-logo {
@@ -1025,7 +1025,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
   font-family: monospace, "Courier New", sans-serif;
   font-size: 21px;
   letter-spacing: 1.5px;
-  color: #00e5a3;
+  color: #00d4ff;
   margin: 0 0 12px 0;
   font-weight: 700;
 }
@@ -1051,7 +1051,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
   margin: 24px auto 16px;
   max-width: 620px;
   background: rgba(10, 20, 35, 0.7);
-  border: 1px solid rgba(0, 229, 163, 0.2);
+  border: 1px solid rgba(0, 212, 255, 0.2);
   border-radius: 12px;
   padding: 14px 24px;
   display: flex;
@@ -1073,7 +1073,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
 }
 
 .subject-grade {
-  color: #00e5a3;
+  color: #00d4ff;
   font-weight: bold;
   font-size: 15px;
 }
@@ -1085,9 +1085,9 @@ h1, h2, h3, .section-heading, .cyber-heading {
   font-family: monospace, "Courier New", sans-serif;
   font-size: 14px;
   color: #e2e8f0;
-  background: rgba(0, 229, 163, 0.06);
-  border-left: 2px solid #00e5a3;
-  border-right: 2px solid #00e5a3;
+  background: rgba(0, 212, 255, 0.08);
+  border-left: 2px solid #00d4ff;
+  border-right: 2px solid #00d4ff;
   padding: 6px 20px;
   border-radius: 12px;
 }
