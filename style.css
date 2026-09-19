@@ -444,7 +444,6 @@ h1, h2, h3, .section-heading, .cyber-heading {
   backdrop-filter: blur(8px);
 }
 
-/* Base Top Accent Line (Ambient Light Effect) */
 .project-card::before {
   content: "";
   position: absolute;
@@ -459,159 +458,7 @@ h1, h2, h3, .section-heading, .cyber-heading {
 }
 
 /* ---------------------------------------------------
-   CARD 1: TaskSprint - Cyan (#00d4ff)
-   --------------------------------------------------- */
-.project-card:nth-child(1)::before {
-  background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.7), transparent);
-}
-.project-card:nth-child(1) .card-icon {
-  color: #00d4ff;
-  background: rgba(0, 212, 255, 0.1);
-  border: 1px solid rgba(0, 212, 255, 0.25);
-}
-.project-card:nth-child(1) .project-category {
-  color: #00d4ff;
-}
-.project-card:nth-child(1):hover {
-  border-color: rgba(0, 212, 255, 0.5);
-  box-shadow: 0 12px 30px rgba(0, 212, 255, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 2: QA Automation - Emerald Green (#10b981)
-   --------------------------------------------------- */
-.project-card:nth-child(2)::before {
-  background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.7), transparent);
-}
-.project-card:nth-child(2) .card-icon {
-  color: #10b981;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.25);
-}
-.project-card:nth-child(2) .project-category {
-  color: #10b981;
-}
-.project-card:nth-child(2):hover {
-  border-color: rgba(16, 185, 129, 0.5);
-  box-shadow: 0 12px 30px rgba(16, 185, 129, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 3: Perimeter Defense - Purple (#a855f7)
-   --------------------------------------------------- */
-.project-card:nth-child(3)::before {
-  background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.7), transparent);
-}
-.project-card:nth-child(3) .card-icon {
-  color: #a855f7;
-  background: rgba(168, 85, 247, 0.1);
-  border: 1px solid rgba(168, 85, 247, 0.25);
-}
-.project-card:nth-child(3) .project-category {
-  color: #a855f7;
-}
-.project-card:nth-child(3):hover {
-  border-color: rgba(168, 85, 247, 0.5);
-  box-shadow: 0 12px 30px rgba(168, 85, 247, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 4: SauceDemo Manual QA - Amber (#f59e0b)
-   --------------------------------------------------- */
-.project-card:nth-child(4)::before {
-  background: linear-gradient(90deg, transparent, rgba(245, 158, 11, 0.7), transparent);
-}
-.project-card:nth-child(4) .card-icon {
-  color: #f59e0b;
-  background: rgba(245, 158, 11, 0.1);
-  border: 1px solid rgba(245, 158, 11, 0.25);
-}
-.project-card:nth-child(4) .project-category {
-  color: #f59e0b;
-}
-.project-card:nth-child(4):hover {
-  border-color: rgba(245, 158, 11, 0.5);
-  box-shadow: 0 12px 30px rgba(245, 158, 11, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 5: Multi-Branch Network - Indigo (#818cf8)
-   --------------------------------------------------- */
-.project-card:nth-child(5)::before {
-  background: linear-gradient(90deg, transparent, rgba(129, 140, 248, 0.7), transparent);
-}
-.project-card:nth-child(5) .card-icon {
-  color: #818cf8;
-  background: rgba(129, 140, 248, 0.1);
-  border: 1px solid rgba(129, 140, 248, 0.25);
-}
-.project-card:nth-child(5) .project-category {
-  color: #818cf8;
-}
-.project-card:nth-child(5):hover {
-  border-color: rgba(129, 140, 248, 0.5);
-  box-shadow: 0 12px 30px rgba(129, 140, 248, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 6: PlanSnap Android App - Sky Blue (#38bdf8)
-   --------------------------------------------------- */
-.project-card:nth-child(6)::before {
-  background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.7), transparent);
-}
-.project-card:nth-child(6) .card-icon {
-  color: #38bdf8;
-  background: rgba(56, 189, 248, 0.1);
-  border: 1px solid rgba(56, 189, 248, 0.25);
-}
-.project-card:nth-child(6) .project-category {
-  color: #38bdf8;
-}
-.project-card:nth-child(6):hover {
-  border-color: rgba(56, 189, 248, 0.5);
-  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 7: Hostel Management - Teal (#2dd4bf)
-   --------------------------------------------------- */
-.project-card:nth-child(7)::before {
-  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.7), transparent);
-}
-.project-card:nth-child(7) .card-icon {
-  color: #2dd4bf;
-  background: rgba(45, 212, 191, 0.1);
-  border: 1px solid rgba(45, 212, 191, 0.25);
-}
-.project-card:nth-child(7) .project-category {
-  color: #2dd4bf;
-}
-.project-card:nth-child(7):hover {
-  border-color: rgba(45, 212, 191, 0.5);
-  box-shadow: 0 12px 30px rgba(45, 212, 191, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD 8: Hotel Room Reservation - Rose (#fb7185)
-   --------------------------------------------------- */
-.project-card:nth-child(8)::before {
-  background: linear-gradient(90deg, transparent, rgba(251, 113, 133, 0.7), transparent);
-}
-.project-card:nth-child(8) .card-icon {
-  color: #fb7185;
-  background: rgba(251, 113, 133, 0.1);
-  border: 1px solid rgba(251, 113, 133, 0.25);
-}
-.project-card:nth-child(8) .project-category {
-  color: #fb7185;
-}
-.project-card:nth-child(8):hover {
-  border-color: rgba(251, 113, 133, 0.5);
-  box-shadow: 0 12px 30px rgba(251, 113, 133, 0.15);
-}
-
-/* ---------------------------------------------------
-   CARD ELEMENTS & TYPOGRAPHY
+   CARD COMMON ELEMENTS (Header, Typography, Buttons)
    --------------------------------------------------- */
 
 .project-header {
@@ -721,6 +568,57 @@ h1, h2, h3, .section-heading, .cyber-heading {
   color: #0b1120;
 }
 
+/* ===================================================
+   DYNAMIC ACCENT THEMES (PLACED AT BOTTOM TO OVERRIDE)
+   =================================================== */
+
+/* CARD 1: TaskSprint - Cyan (#00d4ff) */
+.project-card:nth-child(1)::before { background: linear-gradient(90deg, transparent, #00d4ff, transparent); }
+.project-card:nth-child(1) .card-icon { color: #00d4ff !important; background: rgba(0, 212, 255, 0.1) !important; border: 1px solid rgba(0, 212, 255, 0.25) !important; }
+.project-card:nth-child(1) .project-category { color: #00d4ff !important; }
+.project-card:nth-child(1):hover { border-color: rgba(0, 212, 255, 0.5); box-shadow: 0 12px 30px rgba(0, 212, 255, 0.15); }
+
+/* CARD 2: QA Automation - Emerald Green (#10b981) */
+.project-card:nth-child(2)::before { background: linear-gradient(90deg, transparent, #10b981, transparent); }
+.project-card:nth-child(2) .card-icon { color: #10b981 !important; background: rgba(16, 185, 129, 0.1) !important; border: 1px solid rgba(16, 185, 129, 0.25) !important; }
+.project-card:nth-child(2) .project-category { color: #10b981 !important; }
+.project-card:nth-child(2):hover { border-color: rgba(16, 185, 129, 0.5); box-shadow: 0 12px 30px rgba(16, 185, 129, 0.15); }
+
+/* CARD 3: Perimeter Defense - Purple (#a855f7) */
+.project-card:nth-child(3)::before { background: linear-gradient(90deg, transparent, #a855f7, transparent); }
+.project-card:nth-child(3) .card-icon { color: #a855f7 !important; background: rgba(168, 85, 247, 0.1) !important; border: 1px solid rgba(168, 85, 247, 0.25) !important; }
+.project-card:nth-child(3) .project-category { color: #a855f7 !important; }
+.project-card:nth-child(3):hover { border-color: rgba(168, 85, 247, 0.5); box-shadow: 0 12px 30px rgba(168, 85, 247, 0.15); }
+
+/* CARD 4: SauceDemo Manual QA - Amber (#f59e0b) */
+.project-card:nth-child(4)::before { background: linear-gradient(90deg, transparent, #f59e0b, transparent); }
+.project-card:nth-child(4) .card-icon { color: #f59e0b !important; background: rgba(245, 158, 11, 0.1) !important; border: 1px solid rgba(245, 158, 11, 0.25) !important; }
+.project-card:nth-child(4) .project-category { color: #f59e0b !important; }
+.project-card:nth-child(4):hover { border-color: rgba(245, 158, 11, 0.5); box-shadow: 0 12px 30px rgba(245, 158, 11, 0.15); }
+
+/* CARD 5: Multi-Branch Network - Indigo (#818cf8) */
+.project-card:nth-child(5)::before { background: linear-gradient(90deg, transparent, #818cf8, transparent); }
+.project-card:nth-child(5) .card-icon { color: #818cf8 !important; background: rgba(129, 140, 248, 0.12) !important; border: 1px solid rgba(129, 140, 248, 0.35) !important; }
+.project-card:nth-child(5) .project-category { color: #818cf8 !important; }
+.project-card:nth-child(5):hover { border-color: rgba(129, 140, 248, 0.55); box-shadow: 0 12px 30px rgba(129, 140, 248, 0.15); }
+
+/* CARD 6: PlanSnap Android App - Sky Blue (#38bdf8) */
+.project-card:nth-child(6)::before { background: linear-gradient(90deg, transparent, #38bdf8, transparent); }
+.project-card:nth-child(6) .card-icon { color: #38bdf8 !important; background: rgba(56, 189, 248, 0.12) !important; border: 1px solid rgba(56, 189, 248, 0.35) !important; }
+.project-card:nth-child(6) .project-category { color: #38bdf8 !important; }
+.project-card:nth-child(6):hover { border-color: rgba(56, 189, 248, 0.55); box-shadow: 0 12px 30px rgba(56, 189, 248, 0.15); }
+
+/* CARD 7: Hostel Management - Teal (#2dd4bf) */
+.project-card:nth-child(7)::before { background: linear-gradient(90deg, transparent, #2dd4bf, transparent); }
+.project-card:nth-child(7) .card-icon { color: #2dd4bf !important; background: rgba(45, 212, 191, 0.12) !important; border: 1px solid rgba(45, 212, 191, 0.35) !important; }
+.project-card:nth-child(7) .project-category { color: #2dd4bf !important; }
+.project-card:nth-child(7):hover { border-color: rgba(45, 212, 191, 0.55); box-shadow: 0 12px 30px rgba(45, 212, 191, 0.15); }
+
+/* CARD 8: Hotel Room Reservation - Rose (#fb7185) */
+.project-card:nth-child(8)::before { background: linear-gradient(90deg, transparent, #fb7185, transparent); }
+.project-card:nth-child(8) .card-icon { color: #fb7185 !important; background: rgba(251, 113, 133, 0.12) !important; border: 1px solid rgba(251, 113, 133, 0.35) !important; }
+.project-card:nth-child(8) .project-category { color: #fb7185 !important; }
+.project-card:nth-child(8):hover { border-color: rgba(251, 113, 133, 0.55); box-shadow: 0 12px 30px rgba(251, 113, 133, 0.15); }
 /* Timeline Layout (Education) */
 .timeline-container {
   display: flex;
