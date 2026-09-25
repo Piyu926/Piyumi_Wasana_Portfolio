@@ -113,8 +113,6 @@ function initGlobalConstellation() {
 // --- 2. Typewriter Animation for Hero Section ---
 const roles = [
   "SOFTWARE QUALITY ASSURANCE ENGINEER",
-  "MANUAL & AUTOMATION QA ENTHUSIAST",
-  "API & PERFORMANCE TESTING"
 ];
 
 let roleIndex = 0;
