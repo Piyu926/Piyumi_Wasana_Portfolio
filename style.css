@@ -1118,3 +1118,16 @@ h1, h2, h3, .section-heading, .cyber-heading {
   transform: scale(1.05);
   box-shadow: 0 0 35px rgba(0, 242, 254, 0.95);
 }
+
+.image-halo {
+  animation: haloPulse 4s infinite ease-in-out;
+}
+
+@keyframes haloPulse {
+  0%, 100% { 
+    box-shadow: 0 0 25px rgba(0, 242, 254, 0.4); 
+  }
+  50% { 
+    box-shadow: 0 0 45px rgba(0, 242, 254, 0.7); 
+  }
+}
