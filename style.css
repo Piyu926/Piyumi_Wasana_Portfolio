@@ -1131,3 +1131,50 @@ h1, h2, h3, .section-heading, .cyber-heading {
     box-shadow: 0 0 45px rgba(0, 242, 254, 0.7); 
   }
 }
+
+/* Card Header Flex Alignment */
+.card-header-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-head-icon {
+  font-size: 1.25rem;
+  color: #38bdf8;
+}
+
+/* Skills Badge/Tag Styling */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(56, 189, 248, 0.08);
+  color: #e2e8f0;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  padding: 6px 13px;
+  border-radius: 20px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.skill-tag i {
+  color: #38bdf8;
+  font-size: 0.88rem;
+}
+
+.skill-tag:hover {
+  background: rgba(56, 189, 248, 0.22);
+  color: #ffffff;
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.35);
+}
